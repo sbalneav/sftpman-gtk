@@ -335,7 +335,7 @@ class RecordRenderer(object):
 
     def get_field_definitions(self):
         return (
-            {'id': 'id', 'type': 'textbox', 'title': 'Machine Id', 'disabled': self.added},
+            {'id': 'id', 'type': 'textbox', 'title': 'Share Name', 'disabled': self.added},
             {'id': 'host', 'type': 'textbox', 'title': 'Host', 'disabled': False},
             {'id': 'port', 'type': 'textbox', 'title': 'Port', 'disabled': False},
             {'id': 'user', 'type': 'textbox', 'title': 'Username', 'disabled': False},
